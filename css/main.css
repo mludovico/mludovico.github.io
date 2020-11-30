@@ -1,0 +1,82 @@
+.info{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+}
+
+.pad{
+  margin: 1.3em 0;
+  padding: 1em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  box-shadow: 0 2px 2px 0 #444444;
+}
+
+.pad:hover{
+  background-color: #eeeeee;
+}
+
+a{
+  text-decoration: none !important;
+}
+
+.card-title{
+  margin: 0 0 0 2em;
+}
+
+.profile-pic{
+  background-image: url('/img/marcelo.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  overflow: hidden;
+  height: 200px;
+  width: 200px;
+  margin: 100px auto 0 auto;
+}
+
+.phone{
+  background-position: 1005px 691px;
+}
+
+.skype{
+  background-position: 1073px 691px;
+
+}
+
+.mail{
+  background-position: 937px 691px;
+
+}
+
+.linkedin{
+  background-position: 665px 400px;
+}
+
+.github{
+  background-position: 1073px 555px;
+}
+
+.personal{
+  background-position: 125px -95px;
+}
+
+.card-image {
+  background-image: url('/img/icons.png');
+  border-radius: 50%;
+  overflow: hidden;
+  background-size: 540px;
+  height: 50px;
+  width: 50px;
+}
+
+
+@media (max-width: 767px){
+  h1{
+    font-size: 1.3em;
+  }
+}
